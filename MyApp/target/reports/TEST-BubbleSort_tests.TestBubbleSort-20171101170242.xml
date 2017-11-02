@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite errors="1" failures="0" name="BubbleSort_tests.TestBubbleSort-20171101170242" skipped="0" tests="1" time="0.001">
+	<testcase classname="BubbleSort_tests.TestBubbleSort" name="test_get_inputs_number" time="0.001">
+		<error message="'TestBubbleSort' object has no attribute 'number_of_element'" type="AttributeError">
+<![CDATA[Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/mock/mock.py", line 1305, in patched
+    return func(*args, **keywargs)
+  File "/home/asha/eclipse-workspace/MyApp/src/unittest/python/BubbleSort_tests.py", line 11, in test_get_inputs_number
+    self.assertEqual(self.number_of_element, 5)
+AttributeError: 'TestBubbleSort' object has no attribute 'number_of_element'
+]]>		</error>
+	</testcase>
+	<system-out>
+<![CDATA[]]>	</system-out>
+	<system-err>
+<![CDATA[]]>	</system-err>
+</testsuite>

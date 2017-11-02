@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite errors="0" failures="1" name="BubbleSort_tests.TestBubbleSort-20171101172937" skipped="0" tests="1" time="0.001">
+	<testcase classname="BubbleSort_tests.TestBubbleSort" name="test_get_inputs_number" time="0.001">
+		<failure message="1 != 5" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/mock/mock.py", line 1305, in patched
+    return func(*args, **keywargs)
+  File "/home/asha/eclipse-workspace/MyApp/src/unittest/python/BubbleSort_tests.py", line 14, in test_get_inputs_number
+    self.assertEqual(to_sort.number_of_element, 5)
+AssertionError: 1 != 5
+]]>		</failure>
+	</testcase>
+	<system-out>
+<![CDATA[]]>	</system-out>
+	<system-err>
+<![CDATA[]]>	</system-err>
+</testsuite>

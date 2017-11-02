@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite errors="1" failures="0" name="BubbleSort_tests.TestBubbleSort-20171102103211" skipped="0" tests="3" time="0.002">
+	<testcase classname="BubbleSort_tests.TestBubbleSort" name="test_get_number_tosort" time="0.001"/>
+	<testcase classname="BubbleSort_tests.TestBubbleSort" name="test_get_number_tosort_exception" time="0.001"/>
+	<testcase classname="BubbleSort_tests.TestBubbleSort" name="test_bubble_sort" time="0.000">
+		<error message="'BubbleSort' object has no attribute 'to_sort_element'" type="AttributeError">
+<![CDATA[Traceback (most recent call last):
+  File "/home/asha/eclipse-workspace/MyApp/src/unittest/python/BubbleSort_tests.py", line 26, in test_bubble_sort
+    sorted_list = to_sort.bubble_sort([7,6,5,4,3,2,1])
+  File "/home/asha/eclipse-workspace/MyApp/src/main/python/BubbleSort.py", line 43, in bubble_sort
+    print self.to_sort_element
+AttributeError: 'BubbleSort' object has no attribute 'to_sort_element'
+]]>		</error>
+	</testcase>
+	<system-out>
+<![CDATA[Please Enter Int Value
+]]>	</system-out>
+	<system-err>
+<![CDATA[]]>	</system-err>
+</testsuite>

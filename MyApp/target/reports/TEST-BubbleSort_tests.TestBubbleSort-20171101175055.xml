@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite errors="1" failures="0" name="BubbleSort_tests.TestBubbleSort-20171101175055" skipped="0" tests="1" time="0.001">
+	<testcase classname="BubbleSort_tests.TestBubbleSort" name="test_get_inputs_number" time="0.001">
+		<error message="test_get_inputs_number() takes exactly 3 arguments (2 given)" type="TypeError">
+<![CDATA[Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/mock/mock.py", line 1305, in patched
+    return func(*args, **keywargs)
+TypeError: test_get_inputs_number() takes exactly 3 arguments (2 given)
+]]>		</error>
+	</testcase>
+	<system-out>
+<![CDATA[]]>	</system-out>
+	<system-err>
+<![CDATA[]]>	</system-err>
+</testsuite>

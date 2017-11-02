@@ -1,0 +1,120 @@
+Exception:
+Traceback (most recent call last):
+  File "/home/asha/.local/lib/python2.7/site-packages/pip/basecommand.py", line 215, in main
+    status = self.run(options, args)
+  File "/home/asha/.local/lib/python2.7/site-packages/pip/commands/install.py", line 342, in run
+    prefix=options.prefix_path,
+  File "/home/asha/.local/lib/python2.7/site-packages/pip/req/req_set.py", line 784, in install
+    **kwargs
+  File "/home/asha/.local/lib/python2.7/site-packages/pip/req/req_install.py", line 851, in install
+    self.move_wheel_files(self.source_dir, root=root, prefix=prefix)
+  File "/home/asha/.local/lib/python2.7/site-packages/pip/req/req_install.py", line 1064, in move_wheel_files
+    isolated=self.isolated,
+  File "/home/asha/.local/lib/python2.7/site-packages/pip/wheel.py", line 345, in move_wheel_files
+    clobber(source, lib_dir, True)
+  File "/home/asha/.local/lib/python2.7/site-packages/pip/wheel.py", line 316, in clobber
+    ensure_dir(destdir)
+  File "/home/asha/.local/lib/python2.7/site-packages/pip/utils/__init__.py", line 83, in ensure_dir
+    os.makedirs(path)
+  File "/usr/lib/python2.7/os.py", line 157, in makedirs
+    mkdir(name, mode)
+OSError: [Errno 13] Permission denied: '/usr/local/lib/python2.7/dist-packages/pypandoc'
+Found link https://pypi.python.org/packages/22/e8/498cce60306adcc0b693364054f63441119b086ad5aedd8bc34d13b425b2/pypandoc-0.8.2.tar.gz#md5=920b533a3a592e2a5473de923a94b048 (from https://pypi.python.org/simple/pypandoc/), version: 0.8.2
+    Skipping link https://pypi.python.org/packages/27/8c/bf094382bc882fc760b8173c864a0d31c06322ca9c423ba51beb238e8ec2/pypandoc-1.1.3-cp34-none-win32.whl#md5=1b6d53eebd152d272f85a6e0d9c38159 (from https://pypi.python.org/simple/pypandoc/); it is not compatible with this Python
+    Found link https://pypi.python.org/packages/29/eb/36bcc24c70ea9fe148e360f6542203f6b8f1afe37107f8f4c2fe7c5ad083/pypandoc-0.8.5.tar.gz#md5=0814eed2b2d5d89f294a4ab6fdaf7b9b (from https://pypi.python.org/simple/pypandoc/), version: 0.8.5
+    Found link https://pypi.python.org/packages/2a/f8/0ffc00a781b1fc5fa85b99ff0192b202a55e8cb3c382329be4b9c3daec1a/pypandoc-0.8.0.tar.gz#md5=a052098aadfab18f3ace5d53703e471e (from https://pypi.python.org/simple/pypandoc/), version: 0.8.0
+    Skipping link https://pypi.python.org/packages/2e/38/76f0b714164de65aedfd373f1c1d0514c2b54b35bba5a2e92c0fe2a460d7/pypandoc-1.1.1-cp34-cp34m-macosx_10_5_x86_64.whl#md5=2b88551abaa4d45311d6952cca9aef70 (from https://pypi.python.org/simple/pypandoc/); it is not compatible with this Python
+    Found link https://pypi.python.org/packages/36/55/edb1114966ba9fd1e249c7eccc3727e5643291cd52f571ee463a09a26d9f/pypandoc-1.3.0.tar.gz#md5=e6205dd4a01939e53bb378460fba430f (from https://pypi.python.org/simple/pypandoc/), version: 1.3.0
+    Found link https://pypi.python.org/packages/41/68/e985491370cc44a063ac5c70232bf72d7675fa7539a86fa7fa08257bda05/pypandoc-1.1.3.zip#md5=771f376bf9c936a90159cd94235998c2 (from https://pypi.python.org/simple/pypandoc/), version: 1.1.3
+    Skipping link https://pypi.python.org/packages/46/e3/52e82cabbb38999c3828ac4f2e2aadd9bbeb26ae4cc153716ebc0eb3976a/pypandoc-1.1.3-cp27-none-win32.whl#md5=91c42cb0e4d95a1074c7859301372b36 (from https://pypi.python.org/simple/pypandoc/); it is not compatible with this Python
+    Found link https://pypi.python.org/packages/4a/7b/7eb4ace8d37de62d0d36dabf41c2d0cdeb777efb47baaa7aec9f4f472bb4/pypandoc-1.0.4.tar.gz#md5=253e73dbe284b5d350388ad52b66e7de (from https://pypi.python.org/simple/pypandoc/), version: 1.0.4
+    Found link https://pypi.python.org/packages/4a/e6/7556eea517b009a8526dcd84e40005ecd6154f12819256d2b35cc0580c1c/pypandoc-0.8.4.tar.gz#md5=cc0c4515872e4ee4b6ea8bd8951ad716 (from https://pypi.python.org/simple/pypandoc/), version: 0.8.4
+    Skipping link https://pypi.python.org/packages/53/13/8db2b76b0f4082e69cfeb73c4920c10b48a19529fa2634ed31ebddb9051f/pypandoc-1.1.2-cp35-none-win_amd64.whl#md5=539e9505d07ed462ddce715bdefbc643 (from https://pypi.python.org/simple/pypandoc/); it is not compatible with this Python
+    Found link https://pypi.python.org/packages/59/bf/1a017803fc78b2a6d0ea5ecec9f599ed4f7e98653f2a0a859d9410ab6e56/pypandoc-1.0.0.tar.gz#md5=987761416750c81c0bcb528a152b8215 (from https://pypi.python.org/simple/pypandoc/), version: 1.0.0
+    Found link https://pypi.python.org/packages/5c/51/7ec70fdde92790123b215684e62aab7251cee33a43ee46293100d9ee2bc3/pypandoc-1.0.3.tar.gz#md5=085b49fb5fd2ce1a1797cbe0076e2917 (from https://pypi.python.org/simple/pypandoc/), version: 1.0.3
+    Skipping link https://pypi.python.org/packages/5c/6b/cdbba7df6dd4d117054db6fc039c38464d08144d467fe0f92f02e20bd575/pypandoc-1.1.2-cp27-none-win32.whl#md5=ad112092c3741560b737dcbf790a1b0b (from https://pypi.python.org/simple/pypandoc/); it is not compatible with this Python
+    Found link https://pypi.python.org/packages/61/46/818153d8b83a10eef6961dc191213fc41dfa7a8c4a3ef5a3c4ffc04bf610/pypandoc-0.9.2.tar.gz#md5=1d5ba30180d7a9e2c76cf92320488fcd (from https://pypi.python.org/simple/pypandoc/), version: 0.9.2
+    Found link https://pypi.python.org/packages/61/e5/964313e0aaecf7a4fb27c59caff1e06ec021b08d0f773fcd7aec819960be/pypandoc-0.5.0.tar.gz#md5=15c6aa27036c5b8030911adecdb55918 (from https://pypi.python.org/simple/pypandoc/), version: 0.5.0
+    Found link https://pypi.python.org/packages/61/fc/39a445884a3d36679e44a6b0aef39866439517b427ed081fbd985a98f5c8/pypandoc-0.9.1.tar.gz#md5=ba04b866ad975e528795bd091c01c938 (from https://pypi.python.org/simple/pypandoc/), version: 0.9.1
+    Found link https://pypi.python.org/packages/65/cb/f1eab51fd7c5030387cbdd3fe9c519803889fe75e7f26e95c6376cb4a356/pypandoc-0.9.7.tar.gz#md5=fa93749e5474c5164eceff02b4cbf6e8 (from https://pypi.python.org/simple/pypandoc/), version: 0.9.7
+    Found link https://pypi.python.org/packages/68/6d/4f8ff7661e13f5038bafe1e7d8c4c2a0fb83f3fbe590de16da9405af0dc7/pypandoc-1.3.3.tar.gz#md5=3c6cf267cbcc2c78511ff91f7d64f927 (from https://pypi.python.org/simple/pypandoc/), version: 1.3.3
+    Found link https://pypi.python.org/packages/68/f9/13598ae1822399ef45847be74d5e27414611bea84372f7db28cee4bd7b82/pypandoc-0.8.3.tar.gz#md5=9176072ac62c814151656a0a6bfad636 (from https://pypi.python.org/simple/pypandoc/), version: 0.8.3
+    Skipping link https://pypi.python.org/packages/6c/9e/e8f9d4f3ee6bcd02a91f2af7e8410dd09bbc00cdd0f6d6574ca83fbc4b6b/pypandoc-1.3.3-py2-none-win_amd64.whl#md5=06acb6f66807dadf644d04ac3252ef3c (from https://pypi.python.org/simple/pypandoc/); it is not compatible with this Python
+    Skipping link https://pypi.python.org/packages/6d/92/fb9af261d4cc3f441b42c2c410afa3b3391dcb41d8745c3219b26e1b9e8a/pypandoc-1.1.3-cp34-none-win_amd64.whl#md5=1a2b474fb3a2cb7ba542efffb4ceb7cd (from https://pypi.python.org/simple/pypandoc/); it is not compatible with this Python
+    Found link https://pypi.python.org/packages/71/81/00184643e5a10a456b4118fc12c96780823adb8ed974eb2289f29703b29b/pypandoc-1.4.tar.gz#md5=28d28cf8f1942abf680c040707cee55a (from https://pypi.python.org/simple/pypandoc/), version: 1.4
+    Skipping link https://pypi.python.org/packages/72/73/eb68763d79808ab97c22b9449185d14f1e5bf10758ad9109ee3537004bb0/pypandoc-1.1.3-cp27-none-win_amd64.whl#md5=3fb56ff8929bdc3a623f3d19c2f87827 (from https://pypi.python.org/simple/pypandoc/); it is not compatible with this Python
+    Skipping link https://pypi.python.org/packages/72/aa/008c364fe7b906ec3dbc860ec22227e4a6e19645414d7db9913c57f7210b/pypandoc-1.1.1-cp35-cp35m-macosx_10_5_x86_64.whl#md5=d21cdcfb150750bb68068dd5fd6864c8 (from https://pypi.python.org/simple/pypandoc/); it is not compatible with this Python
+    Skipping link https://pypi.python.org/packages/74/a9/2fd38285ead2925f3a437b3067c0ffe858d0e49cbfef1a80e9c7fa6655b0/pypandoc-1.1.2-cp34-cp34m-macosx_10_5_x86_64.whl#md5=8b274a778872b62ee2d688640e952209 (from https://pypi.python.org/simple/pypandoc/); it is not compatible with this Python
+    Found link https://pypi.python.org/packages/75/65/f6912ebf89517b85e83cb3c52bd6566fb30cce08a3b527accd16296ae6a1/pypandoc-0.6.0.tar.gz#md5=883eaf0c8bae78de2950ad251a95a1fc (from https://pypi.python.org/simple/pypandoc/), version: 0.6.0
+    Found link https://pypi.python.org/packages/79/b7/48a3074b97ba49650c9b17144c06b5ac09f283d59bb9fffd45af342f36f6/pypandoc-0.7.1.tar.gz#md5=091a850c15379b7959a3333d0db501c0 (from https://pypi.python.org/simple/pypandoc/), version: 0.7.1
+    Found link https://pypi.python.org/packages/7b/12/a3442087da3d6dacd38c7e737b45189516ac36da0d07ac9800b7288a8ba3/pypandoc-1.1.0.tar.gz#md5=df4f56a9c3ffa3fc6031017db1433f1b (from https://pypi.python.org/simple/pypandoc/), version: 1.1.0
+    Skipping link https://pypi.python.org/packages/7b/c0/8dbfc10c7224d544e3ce3d1815d872604675d069dbb10fb9c70cf7b0b2b5/pypandoc-1.1.2-cp34-none-win_amd64.whl#md5=753dd05d23b4e1631c09b1e50c95d515 (from https://pypi.python.org/simple/pypandoc/); it is not compatible with this Python
+    Found link https://pypi.python.org/packages/7c/1a/6d69ba0e2084ab4f477dbf6dd547d9ac1ffb5a0ecf3efe402c3502695a27/pypandoc-0.8.6.tar.gz#md5=6b24b3171af082ea2533df6ea7b44845 (from https://pypi.python.org/simple/pypandoc/), version: 0.8.6
+    Skipping link https://pypi.python.org/packages/7d/56/c046a6fb5f0b7d035423858af0ea5ac2c8035b59589bc30a4c37f4d0af4a/pypandoc-1.1.1-cp34-none-win_amd64.whl#md5=d025a883d58eb81479adb8994dee9044 (from https://pypi.python.org/simple/pypandoc/); it is not compatible with this Python
+    Skipping link https://pypi.python.org/packages/81/3c/2879a41945194f1eac700bd03e467c7ea46b04d9d2e899ef820700b62f8c/pypandoc-1.1.2-cp27-none-macosx_10_5_x86_64.whl#md5=8e13c9e5b1f69bd47f7d299a11069a2c (from https://pypi.python.org/simple/pypandoc/); it is not compatible with this Python
+    Skipping link https://pypi.python.org/packages/81/fd/4cf2c05a15a1fee9c9ef8df40093fb5858ebe4c0ec8b372cda8312706911/pypandoc-1.1.1-cp27-none-win_amd64.whl#md5=52b6a513941ddd52c9380983b892df62 (from https://pypi.python.org/simple/pypandoc/); it is not compatible with this Python
+    Skipping link https://pypi.python.org/packages/86/00/842d46211676cb2e55eada357e3bc3eb935e8b6398ff64b8c287932d646f/pypandoc-1.1.3-cp27-none-macosx_10_5_x86_64.whl#md5=b52ea2d61676b2ec4d610ab54cc1d2ff (from https://pypi.python.org/simple/pypandoc/); it is not compatible with this Python
+    Skipping link https://pypi.python.org/packages/89/85/edab2e90a3326f7be378d791f5e439a3b51e71ab5228a3426d0686e1527c/pypandoc-1.1.1-cp27-none-macosx_10_5_x86_64.whl#md5=fea9f5608c9d1e618c91941a4d2b09b7 (from https://pypi.python.org/simple/pypandoc/); it is not compatible with this Python
+    Found link https://pypi.python.org/packages/8d/00/5cd0d750db53d9ce18d3bc5ddb36407495d292d49f3d968bd9b50e3c177f/pypandoc-0.9.5.tar.gz#md5=ae0423ae6e41fcd391036d8200b16aa3 (from https://pypi.python.org/simple/pypandoc/), version: 0.9.5
+    Found link https://pypi.python.org/packages/8e/71/a128bc441a623d056a5b21bf4272139dcadd2c429a6c1a45c7ab3c637118/pypandoc-1.0.5.tar.gz#md5=1257e30d241289e684ac1842dea6a65f (from https://pypi.python.org/simple/pypandoc/), version: 1.0.5
+    Found link https://pypi.python.org/packages/97/b9/a6dc5010829ee1657f4edc9154fe66fde846e9384fc76c40343fcb97ba35/pypandoc-0.5.3.tar.gz#md5=6e0a4b69409b87d1651ac77a075ecb8f (from https://pypi.python.org/simple/pypandoc/), version: 0.5.3
+    Found link https://pypi.python.org/packages/a9/2e/dc0adfe0883d4871dcc159de4d7cc632b204a31235a3696f8fe8b5729b5b/pypandoc-1.0.1.tar.gz#md5=70d3ec6163cdc09d05786ddaf1aecf6b (from https://pypi.python.org/simple/pypandoc/), version: 1.0.1
+    Found link https://pypi.python.org/packages/ab/79/fd7901f754ce56979405c6092b8e7d4210c42ee2fdd5961bba9544d7665f/pypandoc-0.9.0.tar.gz#md5=897063c8f85bb163dff65b03791cfd50 (from https://pypi.python.org/simple/pypandoc/), version: 0.9.0
+    Skipping link https://pypi.python.org/packages/ac/cf/a9e8632baf2f9e79f8bf224fc540756916a0190224067ddb35f7cb6d9ff7/pypandoc-1.1.2-cp34-none-win32.whl#md5=50db80744334634a57b7a4b907c0d728 (from https://pypi.python.org/simple/pypandoc/); it is not compatible with this Python
+    Found link https://pypi.python.org/packages/ad/dd/f4daa75ea42c8a72b91d0887cc4f88efb4f32da7ac1be6e9376464875e42/pypandoc-0.9.8.tar.gz#md5=a314c1c0dc3471de9b14ad6fe411cf0c (from https://pypi.python.org/simple/pypandoc/), version: 0.9.8
+    Found link https://pypi.python.org/packages/b5/26/1e665261fe697ded15bf18d14db2997121ecc308c958f0d3cbb3a0110c94/pypandoc-0.8.1.tar.gz#md5=09616347442855fcd6cc8926e065f14b (from https://pypi.python.org/simple/pypandoc/), version: 0.8.1
+    Found link https://pypi.python.org/packages/b8/f0/39d9dc72a7344386be159fb0ef4584d8494048de4a401a3e7d2452070bb5/pypandoc-0.5.2.tar.gz#md5=ffb0ea1eb7d78f4f44726f03e5320bdd (from https://pypi.python.org/simple/pypandoc/), version: 0.5.2
+    Found link https://pypi.python.org/packages/b9/00/e8a58ef2d3ef9278f299fab160f1dfea0757edc57164a2c74800d925545a/pypandoc-1.1.1.zip#md5=0f54c72a0e0866d7ead2c4d2dfa01569 (from https://pypi.python.org/simple/pypandoc/), version: 1.1.1
+    Skipping link https://pypi.python.org/packages/c1/89/b6444f562499043b3a2453a731bf8a9723399f71450743a7e8dfcf88270e/pypandoc-1.1.1-cp27-none-win32.whl#md5=6d22e2b57407a083efe9a50539df0022 (from https://pypi.python.org/simple/pypandoc/); it is not compatible with this Python
+    Found link https://pypi.python.org/packages/c2/08/29b56928230cff95bd1984aab4afb63a8d334cb903d1c6a8222e39fd9b2f/pypandoc-0.7.0.tar.gz#md5=cb91a5743f3600b29415ae9a0847052d (from https://pypi.python.org/simple/pypandoc/), version: 0.7.0
+    Skipping link https://pypi.python.org/packages/c4/8f/863dd21dafc5bffe884ca45a9f8c81924605795cf49802e847ef9251a18f/pypandoc-1.1.3-cp34-cp34m-macosx_10_5_x86_64.whl#md5=ee412514833e6f653ea3066c5ebee673 (from https://pypi.python.org/simple/pypandoc/); it is not compatible with this Python
+    Found link https://pypi.python.org/packages/c9/ac/06114781f6f2e61f132b1c8e94c980d3fcfdb3fb0492a010b69ec69d472e/pypandoc-0.9.3.tar.gz#md5=fb15bec33051fe8b0da7fa4bdccd560f (from https://pypi.python.org/simple/pypandoc/), version: 0.9.3
+    Found link https://pypi.python.org/packages/ce/2a/4f64c1269842b0cf037cb07fc9a018e58328a981907e604a3be1733b8085/pypandoc-1.1.2.zip#md5=b2392b684ce4aa944bf3ae6c7a648f37 (from https://pypi.python.org/simple/pypandoc/), version: 1.1.2
+    Skipping link https://pypi.python.org/packages/d5/e0/df107971bed75d61b23c07db8ddfc284ecd42f7d6efbdb453c8c726863c1/pypandoc-1.1.2-cp35-cp35m-macosx_10_5_x86_64.whl#md5=1a9803854eed8247f7dc5f217eeecf67 (from https://pypi.python.org/simple/pypandoc/); it is not compatible with this Python
+    Found link https://pypi.python.org/packages/d8/4e/4fe74ea6725e4fd3a39dfe4795d96a87551bf69c0e342d6fa745f08ae3c9/pypandoc-0.9.4.tar.gz#md5=4f5383383841065d1bba9f1fd59837fa (from https://pypi.python.org/simple/pypandoc/), version: 0.9.4
+    Skipping link https://pypi.python.org/packages/dc/3d/f37749564788ad2662ebbdd473c6c803cc93048dc2d695ded2958e8aea45/pypandoc-1.1.1-cp34-none-win32.whl#md5=9a25680ab4de2c7da690cea83413c3ae (from https://pypi.python.org/simple/pypandoc/); it is not compatible with this Python
+    Skipping link https://pypi.python.org/packages/dd/ef/7cf9d03a205a556843b42f86b701e46f25832d73965cc5df2ba37eaf4c28/pypandoc-1.3.0-py2-none-win_amd64.whl#md5=29ca737cbd1279c98f21849f82564f05 (from https://pypi.python.org/simple/pypandoc/); it is not compatible with this Python
+    Found link https://pypi.python.org/packages/e1/92/5f9da57ffa6b379d986f9b47473826c65c9fd9193a0d86c0453d8ff3860b/pypandoc-1.0.2.tar.gz#md5=f03bb8de01a92ab42bc21211fd5a1b39 (from https://pypi.python.org/simple/pypandoc/), version: 1.0.2
+    Found link https://pypi.python.org/packages/e2/81/c9cb67ea0e22e198fc8514f4346681f468f75251abe1b41709c0b94db83b/pypandoc-1.3.1.tar.gz#md5=9bf469fe2cccc72945d6f1e501234db2 (from https://pypi.python.org/simple/pypandoc/), version: 1.3.1
+    Found link https://pypi.python.org/packages/e2/aa/156253072c8fe2b4d90da455a964ed82504d11b6f816536ad11de8406fa9/pypandoc-1.2.0.zip#md5=b9f59cad60f7feb35cbff21b21b77aef (from https://pypi.python.org/simple/pypandoc/), version: 1.2.0
+    Skipping link https://pypi.python.org/packages/e6/44/c463198cfc2c2f502357aebb3a7921e65eaf4b54bc86a6033d1d1d99f7cb/pypandoc-1.1.2-cp27-none-win_amd64.whl#md5=4a71099d947727a08cc1d46e1bd1ac09 (from https://pypi.python.org/simple/pypandoc/); it is not compatible with this Python
+    Found link https://pypi.python.org/packages/e9/21/56aefe3cadff9ed3feb5b48c776faa90e2f555505d1973214d9211bf036c/pypandoc-0.9.6.tar.gz#md5=f46966a47df44165015c4e31e8b634b6 (from https://pypi.python.org/simple/pypandoc/), version: 0.9.6
+    Skipping link https://pypi.python.org/packages/ff/0d/d9e18b5d7c312b13bd018afcc294fad202a558faed8a557ad956362e7c01/pypandoc-1.3.0-py3-none-win_amd64.whl#md5=67d519600f936f38f35d2e67260c8e59 (from https://pypi.python.org/simple/pypandoc/); it is not compatible with this Python
+  Using version 1.4 (newest of versions: 1.4)
+  Using cached wheel link: file:///home/asha/.cache/pip/wheels/1c/42/d4/57a7bd4f719e2a79b89cdbb79a7db365fadfac52a4067db394/pypandoc-1.4-cp27-none-any.whl
+Requirement already satisfied: pip>=8.1.0 in /home/asha/.local/lib/python2.7/site-packages (from pypandoc~=1.4)
+Requirement already satisfied: setuptools in /home/asha/.local/lib/python2.7/site-packages (from pypandoc~=1.4)
+Requirement already satisfied: wheel>=0.25.0 in /home/asha/.local/lib/python2.7/site-packages (from pypandoc~=1.4)
+Installing collected packages: pypandoc
+  Found existing installation: pypandoc 1.3.3
+    Uninstalling pypandoc-1.3.3:
+      Removing file or directory /home/asha/.local/lib/python2.7/site-packages/pypandoc-1.3.3.dist-info/DESCRIPTION.rst
+      Removing file or directory /home/asha/.local/lib/python2.7/site-packages/pypandoc-1.3.3.dist-info/INSTALLER
+      Removing file or directory /home/asha/.local/lib/python2.7/site-packages/pypandoc-1.3.3.dist-info/METADATA
+      Removing file or directory /home/asha/.local/lib/python2.7/site-packages/pypandoc-1.3.3.dist-info/RECORD
+      Removing file or directory /home/asha/.local/lib/python2.7/site-packages/pypandoc-1.3.3.dist-info/WHEEL
+      Removing file or directory /home/asha/.local/lib/python2.7/site-packages/pypandoc-1.3.3.dist-info/metadata.json
+      Removing file or directory /home/asha/.local/lib/python2.7/site-packages/pypandoc-1.3.3.dist-info/top_level.txt
+      Removing file or directory /home/asha/.local/lib/python2.7/site-packages/pypandoc/__init__.py
+      Removing file or directory /home/asha/.local/lib/python2.7/site-packages/pypandoc/__init__.pyc
+      Removing file or directory /home/asha/.local/lib/python2.7/site-packages/pypandoc/pandoc_download.py
+      Removing file or directory /home/asha/.local/lib/python2.7/site-packages/pypandoc/pandoc_download.pyc
+      Removing file or directory /home/asha/.local/lib/python2.7/site-packages/pypandoc/py3compat.py
+      Removing file or directory /home/asha/.local/lib/python2.7/site-packages/pypandoc/py3compat.pyc
+      Successfully uninstalled pypandoc-1.3.3
+
+  Rolling back uninstall of pypandoc
+  Replacing /home/asha/.local/lib/python2.7/site-packages/pypandoc-1.3.3.dist-info/DESCRIPTION.rst
+  Replacing /home/asha/.local/lib/python2.7/site-packages/pypandoc-1.3.3.dist-info/INSTALLER
+  Replacing /home/asha/.local/lib/python2.7/site-packages/pypandoc-1.3.3.dist-info/METADATA
+  Replacing /home/asha/.local/lib/python2.7/site-packages/pypandoc-1.3.3.dist-info/RECORD
+  Replacing /home/asha/.local/lib/python2.7/site-packages/pypandoc-1.3.3.dist-info/WHEEL
+  Replacing /home/asha/.local/lib/python2.7/site-packages/pypandoc-1.3.3.dist-info/metadata.json
+  Replacing /home/asha/.local/lib/python2.7/site-packages/pypandoc-1.3.3.dist-info/top_level.txt
+  Replacing /home/asha/.local/lib/python2.7/site-packages/pypandoc/__init__.py
+  Replacing /home/asha/.local/lib/python2.7/site-packages/pypandoc/__init__.pyc
+  Replacing /home/asha/.local/lib/python2.7/site-packages/pypandoc/pandoc_download.py
+  Replacing /home/asha/.local/lib/python2.7/site-packages/pypandoc/pandoc_download.pyc
+  Replacing /home/asha/.local/lib/python2.7/site-packages/pypandoc/py3compat.py
+  Replacing /home/asha/.local/lib/python2.7/site-packages/pypandoc/py3compat.pyc
+Cleaning up...

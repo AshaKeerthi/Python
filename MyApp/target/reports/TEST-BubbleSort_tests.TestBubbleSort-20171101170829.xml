@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite errors="1" failures="0" name="BubbleSort_tests.TestBubbleSort-20171101170829" skipped="0" tests="1" time="0.001">
+	<testcase classname="BubbleSort_tests.TestBubbleSort" name="test_get_inputs_number" time="0.001">
+		<error message="global name 'number_of_element' is not defined" type="NameError">
+<![CDATA[Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/mock/mock.py", line 1305, in patched
+    return func(*args, **keywargs)
+  File "/home/asha/eclipse-workspace/MyApp/src/unittest/python/BubbleSort_tests.py", line 11, in test_get_inputs_number
+    to_sort.get_inputs_number()
+  File "/home/asha/eclipse-workspace/MyApp/src/main/python/BubbleSort.py", line 12, in get_inputs_number
+    self.get_number_tosort(number_of_element)
+NameError: global name 'number_of_element' is not defined
+]]>		</error>
+	</testcase>
+	<system-out>
+<![CDATA[]]>	</system-out>
+	<system-err>
+<![CDATA[]]>	</system-err>
+</testsuite>

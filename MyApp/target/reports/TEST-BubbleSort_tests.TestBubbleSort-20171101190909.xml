@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite errors="1" failures="0" name="BubbleSort_tests.TestBubbleSort-20171101190909" skipped="0" tests="1" time="0.001">
+	<testcase classname="BubbleSort_tests.TestBubbleSort" name="test_sample_test" time="0.001">
+		<error message="object of type 'int' has no len()" type="TypeError">
+<![CDATA[Traceback (most recent call last):
+  File "/home/asha/eclipse-workspace/MyApp/myappdev/local/lib/python2.7/site-packages/mock/mock.py", line 1305, in patched
+    return func(*args, **keywargs)
+  File "/home/asha/eclipse-workspace/MyApp/src/unittest/python/BubbleSort_tests.py", line 13, in test_sample_test
+    sort.get_number_of_input()
+  File "/home/asha/eclipse-workspace/MyApp/src/main/python/BubbleSort.py", line 19, in get_number_of_input
+    self.get_number_tosort(self.number_of_element)
+  File "/home/asha/eclipse-workspace/MyApp/src/main/python/BubbleSort.py", line 26, in get_number_tosort
+    while len(element) == 0 :
+TypeError: object of type 'int' has no len()
+
+Stdout:
+default 5=============
+]]>		</error>
+	</testcase>
+	<system-out>
+<![CDATA[default 5=============
+]]>	</system-out>
+	<system-err>
+<![CDATA[]]>	</system-err>
+</testsuite>
